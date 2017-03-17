@@ -1,0 +1,35 @@
+{
+  "name": "mackg/laravel-react",
+  "description": "PHP library that renders React components and it's children server side",
+  "license": "MIT",
+  "keywords": ["react", "reactjs", "laravel"],
+  "require": {
+    "ext-v8js": ">=0.1.3",
+    "illuminate/support": "~5.0",
+    "reactjs/react-php-v8js": "dev-master",
+    "koala-framework/composer-extra-assets": "~1.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0.0@stable"
+  },
+  "extra": {
+    "require-npm": {
+      "react": "^0.14.6",
+      "react-dom": "^0.14.6"
+    }
+  },
+  "autoload": {
+    "classmap": [
+      "ReactJS.php",
+      "facades/"
+    ],
+    "psr-4": {
+      "React\\": "lib/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mackenzie Goodwin",
+    }
+  ]
+}
