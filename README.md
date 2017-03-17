@@ -1,3 +1,8 @@
+Laravel React
+===
+
+This is a library for rendering react server-side on Laravel.
+
 Installion
 ===
 For instructions on installation please go 
